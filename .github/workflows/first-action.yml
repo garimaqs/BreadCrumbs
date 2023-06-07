@@ -1,0 +1,10 @@
+name: GH Action Test Workflow # 1
+on: workflow_dispatch
+jobs: 
+  first_job:
+    runs-on: macos-latest
+    steps: 
+      - name: Say hello
+        run: echo "hello"
+      - name: Say bye
+        run: echo "Byeee"
